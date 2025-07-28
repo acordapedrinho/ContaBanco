@@ -1,9 +1,8 @@
 import java.util.Scanner;
-import java.util.Locale;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        System.out.println("Insira os dados da sua conta bancária:");
         Scanner entrada= new Scanner(System.in);
         int numeroAgencia;
         String nome,agencia;
